@@ -1,0 +1,343 @@
+ /* RESET DEFAULT VALUE */
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ /* RESET DEFAULT VALUE */
+
+ :root {
+     --primary-color: #28A745;
+     --secondary-color: #FF3C00;
+     --teritary-color: #FFFFFF;
+     --card-title-color: #414D55;
+     --card-content-color: #696D6E;
+
+
+ }
+
+ h1 {
+     font-size: 49px;
+     font-weight: bolder;
+     color: var(--primary-color);
+ }
+
+ h2 {
+     font-size: 33px;
+     font-weight: 700;
+     color: var(--secondary-color);
+
+ }
+
+ h3 {
+     font-size: 28px;
+     font-weight: 400;
+ }
+
+ h4 {
+     font-size: 20px;
+     font-weight: bold;
+     color: #414D55;
+ }
+
+
+ /* TOP BAR SECTION STARTS HERE  */
+ .topBar {
+     height: 58px;
+     background-image: url(./img/topBar.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 20px 80px;
+     color: white;
+     font-size: 14px;
+
+ }
+
+ .topBarLeft i {
+     padding-right: 10px;
+ }
+
+ .topBarRight i {
+     padding-right: 20px;
+ }
+
+
+ /* TOP BAR SECTION ENDS HERE  */
+
+ /* NAV BAR STARTS HERE  */
+ .nav {
+     height: 80px;
+     background-color: var(--teritary-color);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ .topNavList a,
+ .nav a {
+     text-decoration: none;
+     color: #02053C;
+ }
+
+ .topNavList li {
+     list-style-type: none;
+     display: inline;
+     padding-right: 18px;
+ }
+
+ .searchIcon {
+
+     padding: 14px;
+     background-color: var(--primary-color);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--teritary-color);
+ }
+
+ .getConsultant {
+     background-color: var(--primary-color);
+     border: none;
+     color: white;
+
+
+ }
+
+ .getConsultant,
+ .getContact {
+     padding: 10px 15px;
+     border: 2px solid var(--primary-color);
+     border-radius: 50px;
+ }
+
+ .getContact {
+     color: var(--primary-color);
+     background-color: var(--teritary-color);
+
+ }
+
+ /* NAV BAR ENDS HERE  */
+
+
+ /* BANNER SECTION 1 */
+ .highlightText {
+     color: var(--secondary-color);
+ }
+
+ .bannerSection1 {
+     height: 620px;
+     background-image: url(./img/banner1Bg.png);
+     color: var(--teritary-color);
+     padding: 140px 120px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* position: relative; */
+ }
+
+ .learnMore {
+     background-color: var(--secondary-color);
+     color: var(--teritary-color);
+     padding: 25px 22px;
+     border-radius: 40px;
+     font-size: 21px;
+     font-weight: bolder;
+     border: none;
+
+ }
+
+ /* BANNER 1 BOTTOM CARD SECTION  */
+ .banner1CardTitle {
+     color: var(--card-title-color);
+ }
+
+ .banner1CardCont {
+     color: var(--card-content-color);
+ }
+
+ .banner1Card {
+     padding: 36px 30px;
+     background-color: var(--teritary-color);
+     border-radius: 16px;
+
+     box-shadow: #a8d3b2 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ }
+
+ .banner1CardIcon {
+     height: 100px;
+     width: 100px;
+     background-color: var(--primary-color);
+     border-radius: 50%;
+     /* padding: 20px; */
+     /* background-image: url(./img/banner1CardIcon1.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+ }
+
+ .banner1CardIcon img {
+     height: 50px;
+     width: 50px;
+
+ }
+
+ .banner1bottomCardSec {
+     position: relative;
+     top: 60px;
+ }
+
+
+
+ /* BANNER 1 BOTTOM CARD SECTION  */
+
+ /* WHAT OUR OFFERS  */
+
+ .itserviceCards {
+
+     width: 100%;
+     background-image: url(./img/triangle.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     background-size: contain;
+     border-radius: 10px;
+     border: 5px solid var(--primary-color);
+     padding: 20px;
+ }
+
+ .whatOurOffer {
+     padding: 0px 200px 320px;
+     position: relative;
+     top: 200px;
+ }
+
+ .itserviceCardTitle {
+     font-size: 28px;
+     color: #39464E;
+ }
+
+
+
+ /* WHAT OUR OFFERS  */
+
+
+
+
+
+
+ 
+        /*  MEET OUR TEAM SECTION  */
+
+        .circleTrack1 {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            transform: translate(-18px, 7px);
+        }
+
+        .trackLine1 {
+            display: block;
+            width: 5px;
+            height: 280px;
+            background-color: black;
+        }
+
+        .place {
+            color: var(--primary-color);
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+        .moreInfo {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--teritary-color);
+            background-color: var(--primary-color);
+            border-radius: 20px;
+            border: none;
+            padding: 5px 10px;
+        }
+
+        .personContactUs {
+            border-radius: 20px;
+            border: 1px solid var(--secondary-color);
+            color: var(--secondary-color);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 5px 10px;
+            background-color: var(--teritary-color);
+        }
+
+        .meetOurTeam {
+            width: 100%;
+            background-image: url(./img/triangle.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            padding: 20px;
+        }
+
+
+        .circleTrack2 {
+            transform: translate(-10px, -242px);
+        }
+
+        .circleTrack {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+        }
+
+        .circleTrack3 {
+
+            transform: translate(-10px, -178px);
+
+        }
+
+        .circleTrack4 {
+            transform: translate(-10px, -152px);
+
+        }
+
+        .teamMemberDetails p {
+            font-weight: 600;
+        }
+
+        .selectedMember {
+            max-width: 350px;
+            min-height: 400px;
+
+        }
+
+        .selectedMember img {
+            max-width: 350px;
+            min-height: 400px;
+            border: 10px solid var(--primary-color);
+            border-radius: 20px;
+        }
+
+        .nextMember1 {
+
+            max-width: 350px;
+            min-height: 400px;
+
+        }
+
+        .nextMember1 img {
+            max-width: 250px;
+            min-height: 300px;
+            border: 10px solid var(--primary-color);
+            border-radius: 20px;
+        }
+
+        /*  MEET OUR TEAM SECTION  */
